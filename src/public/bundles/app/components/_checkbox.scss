@@ -1,0 +1,18 @@
+.bh-checkbox {
+  background: url(../assets/styles/unchecked.svg) no-repeat top left;
+  background-size: contain;
+  background-color: transparent;
+  padding: 0 0 0 25px;
+  border: none;
+  outline: none;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.bh-checkbox--checked{
+  background: url(../assets/styles/checked.svg) no-repeat top left;
+}
+
+.bh-checkbox__label {
+  color: grey;
+}
